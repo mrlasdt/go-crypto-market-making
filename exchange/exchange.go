@@ -1,13 +1,14 @@
 package exchange
 
 import (
+	"fmt"
+
 	"example.com/gate_io_mm/config"
 	"example.com/gate_io_mm/iterator"
 	"github.com/shopspring/decimal"
 )
 
 type Exchange interface {
-	Init(cfg config.Config)
 	PlaceOrder(order Order) string
 	CancelOrder(tradingPair string, orderId string)
 	iterator.Iterator //Tick()
@@ -15,12 +16,13 @@ type Exchange interface {
 	AdjustCandidate(buyOrder *Order, sellOrder *Order)
 }
 
-// func InitExchange(cfg config.Config) Exchange {
-// 	var mkt Exchange
-// 	if cfg.Strategy["Exchange"] == "Gateio" {
-// 		mkt = Gateio{}.Init(cfg)
-// 	} else {
-// 		panic(fmt.Sprintf("%v not implemented", cfg.Strategy["Exchange"]))
-// 	}
-// 	return mkt
-// }
+func InitExchange(cfg config.Config) (Exchange, error) {
+	if cfg.Exchange["Name"] == "Gateio" {
+		return newGateio(cfg), nil
+	} else if cfg.Strategy["Name"] == "UniswapV3" {
+		// return newUniswapV3LP(cfg, e), nil
+		panic(fmt.Sprintf("%v not implemented", cfg.Exchange["Name"]))
+	} else {
+		panic(fmt.Sprintf("%v not implemented", cfg.Exchange["Name"]))
+	}
+}

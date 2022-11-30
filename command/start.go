@@ -12,10 +12,14 @@ import (
 func Start(cfg config.Config) {
 	// stg := strategy.InitStrategy(cfg)
 	// mkt := exchange.InitExchange(cfg)
-	mkt := &exchange.Gateio{}
-	mkt.Init(cfg)
-	stg := &strategy.SimplePMM{}
-	stg.Init(cfg, mkt)
+	mkt, err := exchange.InitExchange(cfg)
+	if err != nil {
+		panic(err)
+	}
+	stg, err := strategy.InitStrategy(cfg, mkt)
+	if err != nil {
+		panic(err)
+	}
 	StartMarketMaking(stg, mkt)
 }
 

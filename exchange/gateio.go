@@ -24,7 +24,8 @@ type Gateio struct {
 // 	return g
 // }
 
-func (g *Gateio) Init(cfg config.Config) {
+func newGateio(cfg config.Config) Exchange {
+	g := Gateio{}
 	g.client = gateapi.NewAPIClient(gateapi.NewConfiguration())
 	g.ctx = context.WithValue(context.Background(), gateapi.ContextGateAPIV4, gateapi.GateAPIV4{
 		Key:    cfg.Exchange["ApiKey"],
@@ -37,6 +38,7 @@ func (g *Gateio) Init(cfg config.Config) {
 	} else {
 		g.cp = cp
 	}
+	return &g
 }
 
 func (g Gateio) PlaceOrder(order Order) string {

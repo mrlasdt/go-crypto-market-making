@@ -20,7 +20,8 @@ type SimplePMM struct {
 	OrderTracker     map[string]exchange.Order
 }
 
-func (s *SimplePMM) Init(cfg config.Config, e exchange.Exchange) {
+func newSimplePMM(cfg config.Config, e exchange.Exchange) Strategy {
+	s := SimplePMM{}
 	s.BidSpread = decimal.RequireFromString(cfg.Strategy["BidSpread"])
 	s.AskSpread = decimal.RequireFromString(cfg.Strategy["AskSpread"])
 	s.OrderRefreshTime = utils.CvtStrToFloat32(cfg.Strategy["OrderRefreshTime"])
@@ -29,6 +30,7 @@ func (s *SimplePMM) Init(cfg config.Config, e exchange.Exchange) {
 	s.TradingPair = cfg.Strategy["TradingPair"]
 	s.Exchange = e
 	s.OrderTracker = make(map[string]exchange.Order)
+	return &s
 }
 
 func (s *SimplePMM) Tick(timestamp int64) {

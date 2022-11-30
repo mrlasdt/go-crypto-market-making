@@ -1,6 +1,8 @@
 package strategy
 
 import (
+	"fmt"
+
 	"example.com/gate_io_mm/config"
 	"example.com/gate_io_mm/exchange"
 	"example.com/gate_io_mm/iterator"
@@ -8,17 +10,15 @@ import (
 
 type Strategy interface {
 	iterator.Iterator //Tick()
-	GetActiveOrders() map[string]exchange.Order
-	TrackingOrders()
-	Init(cfg config.Config, e exchange.Exchange)
 }
 
-// func InitStrategy(cfg config.Config) Strategy {
-// 	var stg Strategy
-// 	if cfg.Strategy["Name"] == "SimplePMM" {
-// 		stg = SimplePMM{}.Init(cfg)
-// 	} else {
-// 		panic(fmt.Sprintf("%v not implemented", cfg.Strategy["Name"]))
-// 	}
-// 	return stg
-// }
+func InitStrategy(cfg config.Config, e exchange.Exchange) (Strategy, error) {
+	if cfg.Strategy["Name"] == "SimplePMM" {
+		return newSimplePMM(cfg, e), nil
+	} else if cfg.Strategy["Name"] == "UniswapV3LP" {
+		// return newUniswapV3LP(cfg, e), nil
+		panic(fmt.Sprintf("%v not implemented", cfg.Strategy["Name"]))
+	} else {
+		panic(fmt.Sprintf("%v not implemented", cfg.Strategy["Name"]))
+	}
+}
