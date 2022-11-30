@@ -1,0 +1,1 @@
+SCRIPT_STRATEGIES_MODULE = 'scripts'

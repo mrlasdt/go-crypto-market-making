@@ -1,0 +1,127 @@
+[INFO]: Creating the clock with tick size: 1
+[INFO]: order created with id 223475833176, status open, details
+ OrderCandidate(trading_pair='BNB_USDT', is_maker=True, order_type=<OrderType.LIMIT: 'limit'>, order_side=<TradeType.BUY: 'buy'>, amount=Decimal('0.005000000000000000104083408558608425664715468883514404296875'), price=Decimal('294.6380400000000072691985764'))
+[INFO]: order created with id 223475834375, status open, details
+ OrderCandidate(trading_pair='BNB_USDT', is_maker=True, order_type=<OrderType.LIMIT: 'limit'>, order_side=<TradeType.SELL: 'sell'>, amount=Decimal('0.005000000000000000104083408558608425664715468883514404296875'), price=Decimal('360.1131600000000290767943056'))
+[INFO]: order 223475833176 filled 0, left: 0.005
+[INFO]: order 223475834375 filled 0, left: 0.005
+[INFO]: order 223475833176 filled 0, left: 0.005
+[INFO]: order 223475834375 filled 0, left: 0.005
+[INFO]: order 223475833176 filled 0, left: 0.005
+[INFO]: order 223475834375 filled 0, left: 0.005
+[INFO]: order 223475833176 filled 0, left: 0.005
+[INFO]: order 223475834375 filled 0, left: 0.005
+[INFO]: order 223475833176 filled 0, left: 0.005
+[INFO]: order 223475834375 filled 0, left: 0.005
+[INFO]: order 223475833176 filled 0, left: 0.005
+[INFO]: order 223475834375 filled 0, left: 0.005
+[INFO]: order 223475833176 filled 0, left: 0.005
+[INFO]: order 223475834375 filled 0, left: 0.005
+[INFO]: order 223475833176 filled 0, left: 0.005
+[INFO]: order 223475834375 filled 0, left: 0.005
+[INFO]: order 223475833176 filled 0, left: 0.005
+[INFO]: order 223475834375 filled 0, left: 0.005
+[INFO]: order 223475833176 filled 0, left: 0.005
+[INFO]: order 223475834375 filled 0, left: 0.005
+[INFO]: order cancelled
+ 223475833176
+[INFO]: order cancelled
+ 223475834375
+[INFO]: order created with id 223475906914, status open, details
+ OrderCandidate(trading_pair='BNB_USDT', is_maker=True, order_type=<OrderType.LIMIT: 'limit'>, order_side=<TradeType.BUY: 'buy'>, amount=Decimal('0.005000000000000000104083408558608425664715468883514404296875'), price=Decimal('294.6061800000000072684125385'))
+[INFO]: order created with id 223475907612, status open, details
+ OrderCandidate(trading_pair='BNB_USDT', is_maker=True, order_type=<OrderType.LIMIT: 'limit'>, order_side=<TradeType.SELL: 'sell'>, amount=Decimal('0.005000000000000000104083408558608425664715468883514404296875'), price=Decimal('360.0742200000000290736501540'))
+[INFO]: order 223475906914 filled 0, left: 0.005
+[INFO]: order 223475907612 filled 0, left: 0.005
+[INFO]: order 223475906914 filled 0, left: 0.005
+[INFO]: order 223475907612 filled 0, left: 0.005
+[INFO]: order 223475906914 filled 0, left: 0.005
+[INFO]: order 223475907612 filled 0, left: 0.005
+[INFO]: order 223475906914 filled 0, left: 0.005
+[INFO]: order 223475907612 filled 0, left: 0.005
+[INFO]: order 223475906914 filled 0, left: 0.005
+[INFO]: order 223475907612 filled 0, left: 0.005
+[INFO]: order 223475906914 filled 0, left: 0.005
+[INFO]: order 223475907612 filled 0, left: 0.005
+[INFO]: order 223475906914 filled 0, left: 0.005
+[INFO]: order 223475907612 filled 0, left: 0.005
+[INFO]: order 223475906914 filled 0, left: 0.005
+[INFO]: order 223475907612 filled 0, left: 0.005
+[INFO]: order 223475906914 filled 0, left: 0.005
+[INFO]: order 223475907612 filled 0, left: 0.005
+[INFO]: order cancelled
+ 223475906914
+[INFO]: order cancelled
+ 223475907612
+[INFO]: order created with id 223475983755, status open, details
+ OrderCandidate(trading_pair='BNB_USDT', is_maker=True, order_type=<OrderType.LIMIT: 'limit'>, order_side=<TradeType.BUY: 'buy'>, amount=Decimal('0.005000000000000000104083408558608425664715468883514404296875'), price=Decimal('294.6062700000000072684147590'))
+[INFO]: order created with id 223475984669, status open, details
+ OrderCandidate(trading_pair='BNB_USDT', is_maker=True, order_type=<OrderType.LIMIT: 'limit'>, order_side=<TradeType.SELL: 'sell'>, amount=Decimal('0.005000000000000000104083408558608425664715468883514404296875'), price=Decimal('360.0743300000000290736590358'))
+[INFO]: order 223475983755 filled 0, left: 0.005
+[INFO]: order 223475984669 filled 0, left: 0.005
+[INFO]: order 223475983755 filled 0, left: 0.005
+[INFO]: order 223475984669 filled 0, left: 0.005
+[INFO]: order 223475983755 filled 0, left: 0.005
+[INFO]: order 223475984669 filled 0, left: 0.005
+[INFO]: order 223475983755 filled 0, left: 0.005
+[INFO]: order 223475984669 filled 0, left: 0.005
+[INFO]: order 223475983755 filled 0, left: 0.005
+[INFO]: order 223475984669 filled 0, left: 0.005
+[INFO]: order 223475983755 filled 0, left: 0.005
+[INFO]: order 223475984669 filled 0, left: 0.005
+[INFO]: order 223475983755 filled 0, left: 0.005
+[INFO]: order 223475984669 filled 0, left: 0.005
+[INFO]: order 223475983755 filled 0, left: 0.005
+[INFO]: order 223475984669 filled 0, left: 0.005
+[INFO]: order 223475983755 filled 0, left: 0.005
+[INFO]: order 223475984669 filled 0, left: 0.005
+[INFO]: order 223475983755 filled 0, left: 0.005
+[INFO]: order 223475984669 filled 0, left: 0.005
+[INFO]: order cancelled
+ 223475983755
+[INFO]: order cancelled
+ 223475984669
+[INFO]: order created with id 223476066353, status open, details
+ OrderCandidate(trading_pair='BNB_USDT', is_maker=True, order_type=<OrderType.LIMIT: 'limit'>, order_side=<TradeType.BUY: 'buy'>, amount=Decimal('0.005000000000000000104083408558608425664715468883514404296875'), price=Decimal('294.6380400000000072691985764'))
+[INFO]: order created with id 223476067269, status open, details
+ OrderCandidate(trading_pair='BNB_USDT', is_maker=True, order_type=<OrderType.LIMIT: 'limit'>, order_side=<TradeType.SELL: 'sell'>, amount=Decimal('0.005000000000000000104083408558608425664715468883514404296875'), price=Decimal('360.1131600000000290767943056'))
+[INFO]: order 223476066353 filled 0, left: 0.005
+[INFO]: order 223476067269 filled 0, left: 0.005
+[INFO]: order 223476066353 filled 0, left: 0.005
+[INFO]: order 223476067269 filled 0, left: 0.005
+[INFO]: order 223476066353 filled 0, left: 0.005
+[INFO]: order 223476067269 filled 0, left: 0.005
+[INFO]: order 223476066353 filled 0, left: 0.005
+[INFO]: order 223476067269 filled 0, left: 0.005
+[INFO]: order 223476066353 filled 0, left: 0.005
+[INFO]: order 223476067269 filled 0, left: 0.005
+[INFO]: order 223476066353 filled 0, left: 0.005
+[INFO]: order 223476067269 filled 0, left: 0.005
+[INFO]: order 223476066353 filled 0, left: 0.005
+[INFO]: order 223476067269 filled 0, left: 0.005
+[INFO]: order 223476066353 filled 0, left: 0.005
+[INFO]: order 223476067269 filled 0, left: 0.005
+[INFO]: order 223476066353 filled 0, left: 0.005
+[INFO]: order 223476067269 filled 0, left: 0.005
+[INFO]: order 223476066353 filled 0, left: 0.005
+[INFO]: order 223476067269 filled 0, left: 0.005
+[INFO]: order cancelled
+ 223476066353
+[INFO]: order cancelled
+ 223476067269
+[INFO]: order created with id 223476160209, status open, details
+ OrderCandidate(trading_pair='BNB_USDT', is_maker=True, order_type=<OrderType.LIMIT: 'limit'>, order_side=<TradeType.BUY: 'buy'>, amount=Decimal('0.005000000000000000104083408558608425664715468883514404296875'), price=Decimal('294.3831600000000072629102732'))
+[INFO]: order created with id 223476161298, status open, details
+ OrderCandidate(trading_pair='BNB_USDT', is_maker=True, order_type=<OrderType.LIMIT: 'limit'>, order_side=<TradeType.SELL: 'sell'>, amount=Decimal('0.005000000000000000104083408558608425664715468883514404296875'), price=Decimal('359.8016400000000290516410928'))
+[INFO]: order 223476160209 filled 0, left: 0.005
+[INFO]: order 223476161298 filled 0, left: 0.005
+[INFO]: order 223476160209 filled 0, left: 0.005
+[INFO]: order 223476161298 filled 0, left: 0.005
+[INFO]: order 223476160209 filled 0, left: 0.005
+[INFO]: order 223476161298 filled 0, left: 0.005
+[INFO]: order 223476160209 filled 0, left: 0.005
+[INFO]: order 223476161298 filled 0, left: 0.005
+[INFO]: order 223476160209 filled 0, left: 0.005
+[INFO]: order 223476161298 filled 0, left: 0.005
+[INFO]: order 223476160209 filled 0, left: 0.005
+[INFO]: order 223476161298 filled 0, left: 0.005
