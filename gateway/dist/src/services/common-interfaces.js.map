@@ -1,0 +1,1 @@
+{"version":3,"file":"common-interfaces.js","sourceRoot":"","sources":["../../../src/services/common-interfaces.ts"],"names":[],"mappings":";;;AAsnBA,MAAa,eAAe;IAC1B,IAAI,MAAM;QACR,OAAO,IAAI,CAAC,OAAO,IAAI,CAAC,CAAC,CAAC;IAC5B,CAAC;IACD,IAAI,MAAM,CAAC,KAAa;QACtB,IAAI,CAAC,OAAO,GAAG,KAAK,CAAC;IACvB,CAAC;CAMF;AAZD,0CAYC"}
